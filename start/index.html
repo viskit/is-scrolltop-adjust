@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <link rel="”manifest”" href="manifest.json" />
+    <script>
+      process = {};
+      document.oncontextmenu = function (e) {
+        return false;
+      };
+    </script>
+    <style>
+      * {
+        touch-action: none;
+        user-select: none;
+      }
+
+      .draggable {
+        box-shadow: 5px 5px 5px #eee;
+      }
+    </style>
+    <title>viskit-reorder-list demo</title>
+  </head>
+
+  <body>
+   
+    <script src="../dist/index.build.js"></script>
+    <script>
+      console.log(window.isScrolltopAdjust.default());
+    </script>
+  </body>
+</html>

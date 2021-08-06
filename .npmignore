@@ -1,0 +1,6 @@
+/node_modules/
+/configs/
+/cypress/
+/src/
+/start/
+tsconfig.json
